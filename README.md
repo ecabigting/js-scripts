@@ -8,3 +8,6 @@ This is a collection of short javascript files I created to automate some task f
    b. The mark type(ei. passing, overall) id
    c. The mark category(quizes, midterm, homework, etc.)
  - I manually obtain this by opening the source code of the page and check the id given to the textbox. The textboxes has this id format for what I understand `<mark type>?<subject id>?<mark category>`
+
+2. Setting checkboxes to checked.
+ - This is a short javascript that sets checkboxes to checked as long as the textbox assigned to it is empty.
