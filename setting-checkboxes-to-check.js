@@ -10,7 +10,11 @@ for(var i = 0; i < nodeList.length; i++) {
 		if(valOfTxtBox == null || valOfTxtBox == "") {
 			nodeList[i].checked = true;
 		}
-	}	
+	}else{
+		if(nodeList[i].id.indexOf("enroll") > -1){
+			nodeList[i].checked = true;
+		}
+	}
 }
 
 -------------------------------
